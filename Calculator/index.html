@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Caclculator App</title>
+</head>
+<body>
+    <div class="container">
+        <main class="card">
+            <div class="display-board">
+                <!-- <h3>24</h3>
+                <h3>+</h3>
+                <h3>31</h3> -->
+            </div>
+            <div class="calculate-buttons">
+                <button class="btn" id="add" onclick="getAlgorithmicData(this)">+</button>
+                <button class="btn" id="subtract" onclick="getAlgorithmicData(this)">-</button>
+                <button class="btn btn-u" id="multiply" onclick="getAlgorithmicData(this)">X</button>
+                <button class="btn" id="divide" onclick="getAlgorithmicData(this)">/</button>
+                <button class="btn btn-u" id="back">Back.</button>
+            </div>
+            <div class="number-buttons">
+                <div class="numbers">
+                    <button class="number-button" id="one" onclick="getClickData(this)">1</button>
+                    <button class="number-button" id="two" onclick="getClickData(this)">2</button>
+                    <button class="number-button" id="three" onclick="getClickData(this)">3</button>
+                    <button class="number-button" id="four" onclick="getClickData(this)">4</button>
+                    <button class="number-button" id="five" onclick="getClickData(this)">5</button>
+                    <button class="number-button" id="six" onclick="getClickData(this)">6</button>
+                    <button class="number-button" id="seven" onclick="getClickData(this)">7</button>
+                    <button class="number-button" id="eight" onclick="getClickData(this)">8</button>
+                    <button class="number-button" id="nine" onclick="getClickData(this)">9</button>
+                    <button class="number-button" id="zero"  onclick="getClickData(this)">0</button>
+                </div>
+                <div class="equal">
+                    <button class="equal-btn">
+                        =
+                    </button>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
